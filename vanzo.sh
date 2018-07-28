@@ -1,5 +1,5 @@
  #
- # Copyright © 2015, Varun Chitre "varun.chitre15" <varun.chitre15@gmail.com>
+ # Copyright Â© 2015, Varun Chitre "varun.chitre15" <varun.chitre15@gmail.com>
  #
  # Custom build script
  #
@@ -35,7 +35,7 @@ compile_kernel ()
 echo -e "$blue***********************************************"
 echo "          Compiling VANZO6572 kernel          "
 echo -e "***********************************************$nocol"
-make pop_c3_defconfig
+make muse72_s4_kk_debug_defconfig
 make -j2
 if ! [ -a $ZIMAGE ];
 then
